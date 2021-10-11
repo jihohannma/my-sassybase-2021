@@ -5,8 +5,9 @@
 //VARIABLES
 $color-text-body: rgba(0,0,0,.8);
 $color-text-headings: rgba(0,0,0,1);
-$color-accent: rgb(228, 135, 150);
-$color-accent-dark: rgb(201, 89, 108);
+$color-accent: rgb(122, 168, 61);
+$color-accent-dark: rgb(87, 122, 41);
+$color-accent-light: rgb(188, 209, 160);
 
 $color-lightgrey: rgba(0,0,0,.5);
 
@@ -25,3 +26,4 @@ $breakpoint-large: 1250px;
 @import "partials/media"; 
 @import "partials/layout"; 
 @import "partials/grid"; 
+@import "partials/structure"; 

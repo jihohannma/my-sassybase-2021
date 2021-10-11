@@ -1,0 +1,65 @@
+/* SITE STRUCTURE */
+
+.site-header {
+    background-color: $color-accent-dark;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin: 0;
+    }
+
+}
+
+/* SITE FOOTER */
+.site-footer {
+    background-color: $color-accent-dark;
+    display: flex;
+    justify-content: center;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+/* SITE-NAV */
+.site-nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+
+    a {
+        display: inline-block;
+        padding: 1em;
+        line-height: 1;
+    }
+}
+
+section {
+    padding: 6em 0;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: $color-accent-light;
+    text-align: center;
+
+    h1 {
+        margin-bottom: .5em;
+    }
+    p {
+        margin: 2em auto;
+    }
+}
